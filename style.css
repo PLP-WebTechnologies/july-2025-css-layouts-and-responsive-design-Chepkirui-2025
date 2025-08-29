@@ -47,3 +47,33 @@ h1, h2, h3 {
 .nav a:hover {
   border-bottom: 2px solid #fff;
 }
+
+/* ===== Hero Section ===== */
+.hero {
+  text-align: center;
+  background: url("https://picsum.photos/1200/400?library") no-repeat center center/cover;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.btn {
+  background: #ff9d00;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #e88a00;
+}
