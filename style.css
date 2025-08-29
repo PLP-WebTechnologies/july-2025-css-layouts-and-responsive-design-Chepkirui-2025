@@ -77,3 +77,81 @@ h1, h2, h3 {
 .btn:hover {
   background: #e88a00;
 }
+
+/* ===== Main Layout (CSS Grid) ===== */
+.main-grid {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.sidebar h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.8rem;
+}
+
+.sidebar a {
+  color: #1f3b57;
+  font-weight: 500;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Content Section */
+.content h2 {
+  margin-bottom: 1rem;
+}
+
+.book-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  flex: 1 1 200px;
+  max-width: 220px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 0.8rem 0 0.3rem;
+  font-size: 1rem;
+  color: #1f3b57;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+}
